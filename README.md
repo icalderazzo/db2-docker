@@ -16,4 +16,4 @@ docker exec -ti db2 bash -c "su db2inst1"
 * Usuario `db2inst1` - Password: `password`
 
 ## Backup
-El repositorio incluye un backup de una base de datos de prueba. El archivo de backup se encuentra en el contenedor en el directorio `/home/db2inst1/backups`
+El deploy de DB2 permite cargar backups desde su máquina host. Para ello, es necesario crear un directorio `/backups` en la raiz del repositorio y se montará el volumen (y sus archivos) dentro del contenedor en el directorio `/home/db2inst1/backups`

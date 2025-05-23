@@ -1,12 +1,18 @@
 # DB2 Docker
 Este repositorio contiene manifiestos de IBM DB2 `docker-compose` para Windows, Mac y Linux.
 
-Para configurar DB2 ejecutar desde la raiz
+Para configurar DB2 ejecutar docker compose desde la raiz
+
+**EN WINDOWS Y MAC**
+
+Es necesario editar el compose y colocar su nombre de usuario en la configuración de volúmenes; sustituya `<user name>` o `<username>` respectivamente.
+
+Una vez configurado el docker compose acorde a su SO, ejecutar:
 ```
 docker compose -f ./db2/<archivo-correspondiente> up -d
 ```
 
-Una vez se complete la instalación, podrás acceder al contenedor ejecutando el siguiente comando desde una terminal
+Cuando se complete la instalación, podrás acceder al contenedor ejecutando el siguiente comando desde una terminal
 ```
 docker exec -ti db2 bash -c "su db2inst1"
 ```

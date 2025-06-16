@@ -23,3 +23,5 @@ docker exec -ti db2 bash -c "su db2inst1"
 
 ## Backup
 El deploy de DB2 permite cargar backups desde su máquina host. Para ello, es necesario crear un directorio `/backups` en la raiz del repositorio y se montará el volumen (y sus archivos) dentro del contenedor en el directorio `/backups`
+
+URL para los backups: https://correoucuedu-my.sharepoint.com/:u:/g/personal/ignacio_calderazzob_ucu_edu_uy/ETZOrIxXsxJJjxnv4MXwx6MBBvjRygGNuHeho32J-Bm_pg

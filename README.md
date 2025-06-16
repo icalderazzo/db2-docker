@@ -26,4 +26,4 @@ El deploy de DB2 permite cargar backups desde su máquina host. Para ello, es ne
 
 URL para los backups: https://correoucuedu-my.sharepoint.com/:u:/g/personal/ignacio_calderazzob_ucu_edu_uy/ETZOrIxXsxJJjxnv4MXwx6MBBvjRygGNuHeho32J-Bm_pg
 
-Password: BD2025!
+Password: Bd2025!
